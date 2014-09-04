@@ -344,29 +344,31 @@ header .gray-b .right-b .eco { margin-top: -65px; }
 .rec hr { margin-top: 100px; }
 
 /* line 796, ../sass/screen.sass */
-.map { background: url("../img/map.jpg") no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; padding: 120px 0; }
-/* line 801, ../sass/screen.sass */
-.map .col-xs-5 { background: white; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding: 40px; width: 450px; }
-/* line 807, ../sass/screen.sass */
+.map { padding: 120px 0; position: relative; }
+/* line 800, ../sass/screen.sass */
+.map .col-xs-5 { background: white; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding: 40px; width: 450px; position: relative; z-index: 1; }
+/* line 808, ../sass/screen.sass */
 .map .col-xs-5 p { color: #43464d; font-family: "PT Sans", sans-serif; font-size: 18px; margin: 0; }
-/* line 814, ../sass/screen.sass */
+/* line 815, ../sass/screen.sass */
 .map .col-xs-5 a.tel { text-decoration: none; float: left; }
-/* line 818, ../sass/screen.sass */
+/* line 819, ../sass/screen.sass */
 .map .col-xs-5 a.tel h2 { color: #43464d; font-family: "Arial"; font-size: 26px; font-weight: bold; margin: 0; }
-/* line 825, ../sass/screen.sass */
+/* line 826, ../sass/screen.sass */
 .map .col-xs-5 .red-b { float: right; margin-top: 3px; }
-/* line 829, ../sass/screen.sass */
+/* line 830, ../sass/screen.sass */
 .map .row { margin-top: 15px; margin-bottom: 15px; }
-
 /* line 834, ../sass/screen.sass */
+.map .ymap { height: 520px; width: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+
+/* line 844, ../sass/screen.sass */
 footer { padding: 15px 0; }
-/* line 837, ../sass/screen.sass */
-footer p { color: #43464d; font-family: "PT Sans", sans-serif; font-size: 16px; margin: 0; }
-/* line 843, ../sass/screen.sass */
-footer .right { text-align: right; }
 /* line 847, ../sass/screen.sass */
+footer p { color: #43464d; font-family: "PT Sans", sans-serif; font-size: 16px; margin: 0; }
+/* line 853, ../sass/screen.sass */
+footer .right { text-align: right; }
+/* line 857, ../sass/screen.sass */
 footer .right p > a { color: #af2829; text-decoration: underline; }
-/* line 851, ../sass/screen.sass */
+/* line 861, ../sass/screen.sass */
 footer .right span { color: #b9b9b9; font-family: "PT Sans", sans-serif; font-size: 12px; }
-/* line 856, ../sass/screen.sass */
+/* line 866, ../sass/screen.sass */
 footer .right span > a { color: #af2829; line-height: 1.1; text-decoration: underline; }

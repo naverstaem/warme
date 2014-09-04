@@ -794,15 +794,16 @@ header
 
 
 .map
-  background: url("../img/map.jpg") no-repeat
-  +background-size(cover)
   padding: 120px 0
+  position: relative
   
   .col-xs-5
     background: #fff
     @include border-radius(4px)
     padding: 40px
     width: 450px
+    position: relative
+    z-index: 1
 
     p
       color: #43464d // text color
@@ -829,6 +830,15 @@ header
   .row
     margin-top: 15px
     margin-bottom: 15px
+
+  .ymap
+    height: 520px
+    width: 100%
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
 
 
 footer
@@ -857,3 +867,5 @@ footer
         color: #af2829
         line-height: 1.1
         text-decoration: underline
+
+
