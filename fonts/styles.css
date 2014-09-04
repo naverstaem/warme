@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr-Thin';
+	src: url('HelveticaNeueCyr-Thin.eot?') format('eot'), 
+	     url('HelveticaNeueCyr-Thin.otf')  format('opentype'),
+	     url('HelveticaNeueCyr-Thin.woff') format('woff'), 
+	     url('HelveticaNeueCyr-Thin.ttf')  format('truetype'),
+	     url('HelveticaNeueCyr-Thin.svg#HelveticaNeueCyr-Thin') format('svg');
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    src: url('HelveticaNeueCyr-Roman.eot?') format('eot'),
+    url('HelveticaNeueCyr-Roman.otf')  format('opentype'),
+    url('HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('HelveticaNeueCyr-Roman.ttf')  format('truetype'),
+    url('HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Bold';
+    src: url('HelveticaNeueCyr-Bold.eot?') format('eot'),
+    url('HelveticaNeueCyr-Bold.otf')  format('opentype'),
+    url('HelveticaNeueCyr-Bold.woff') format('woff'),
+    url('HelveticaNeueCyr-Bold.ttf')  format('truetype'),
+    url('HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+}

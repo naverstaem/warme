@@ -1,0 +1,859 @@
+@import "compass/css3"
+@import "placeholderText"
+
+// Fonts parametrs
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic-ext,latin)
+@import "../fonts/styles.css"
+
+$pt: 'PT Sans', sans-serif
+$hr: 'HelveticaNeueCyr-Roman'
+$hb: 'HelveticaNeueCyr-Bold'
+
+
+.container
+  width: 960px !important
+
+.btn
+  display: inline-block
+  text-decoration: none
+  +border-radius(4px) // border radius
+  background-color: #e52d35 // layer fill content
+  color: #fff // text color
+  font-family: $pt
+  font-size: 17px
+  padding: 6px 21px
+
+  &.red-b
+    border: 2px solid #e52d35 // stroke
+    background-color: transparent
+    color: #e52d35
+    padding: 2px 14px
+    font-size: 15px
+
+hr
+  margin: 0
+  background: url("../img/hr-bg.png") repeat-x
+  height: 12px
+  border: none
+
+header
+  .logo
+    text-decoration: none
+    h5
+      color: #7e8285
+      font-family: $pt
+      font-size: 14px
+      font-weight: normal
+      margin: 0
+
+  .menu
+    text-align: center
+    margin-top: 20px
+
+    ul
+      list-style: none
+      padding: 0
+      margin: 0
+      display: inline-block
+
+      li
+        float: left
+        margin: 0 20px
+
+        a
+          color: #43464d // text color
+          font-family: $pt
+          font-size: 17px
+          border-bottom: 1px dashed #43464d
+
+          &:hover
+            text-decoration: none
+
+        &.is-active
+          a
+            color: #e52d35
+            border-color: #e52d35
+
+  .tel-order
+    text-align: right
+
+    .tel
+      text-decoration: none
+
+      h2
+        color: #43464d // text color
+        font-family: "Arial"
+        font-size: 26px
+        line-height: 1
+        font-weight: bold
+        margin: 0
+
+    .btn
+      margin-top: 8px
+
+  .top
+    padding: 15px 0
+
+
+  .gray-b
+    background: url("../img/gray-header-bg.png") top center no-repeat
+    +background-size(cover)
+    padding-top: 35px
+    padding-bottom: 20px
+
+    .left-b
+      text-align: right
+      width: 490px
+
+      h2
+        color: #43464d // text color
+        font-family: $hb
+        font-size: 51px
+        line-height: 1
+        font-weight: normal
+        margin-top: 20px
+
+      p
+        color: #43464d // text color
+        font-family: $pt
+        font-size: 24px
+
+        &.sm
+          font-size: 21px
+
+        span
+          display: inline-block
+          background: url("../img/snow-bg.png") no-repeat
+          width: 51px
+          height: 37px
+          text-align: center
+          color: #ffffff
+          padding-top: 3px
+          margin: 0 3px
+
+          &:after
+            content: ''
+            display: inline-block
+            background: url("../img/grade.png") no-repeat
+            width: 6px
+            height: 6px
+            position: relative
+            top: -15px
+            left: 1px
+
+      >img
+        margin-top: 10px
+        margin-right: 150px
+
+
+    .right-b
+      text-align: center
+      width: 469px
+
+      .warme-goods
+        margin-top: -55px
+
+      .eco
+        margin-top: -65px
+
+.benefits
+  text-align: center
+  padding: 40px 0
+
+  h3
+    color: #6f6f70 // text color
+    font-family: $pt
+    font-size: 19px
+
+
+  .btn
+    margin-top: 15px
+
+.benefits_lists
+  text-align: center
+  padding-bottom: 50px
+
+  .title
+    margin: 55px 0
+
+    h2
+      color: #43464d // text color
+      font-family: $hr
+      font-size: 40px
+      line-height: 1
+      font-weight: normal
+      margin: 0
+
+    .l1
+      margin-right: 270px
+
+    .l2
+      margin-left: 270px
+
+  .btn
+    margin-top: 30px
+
+  h3
+    color: #43464d // text color
+    font-family: $hr
+    font-size: 24px
+    line-height: 1
+    margin: 0
+    font-weight: normal
+
+  p
+    color: #77787d // text color
+    font-family: $pt
+    font-size: 18px
+    margin-top: 5px
+
+  ul
+    list-style: none
+
+    i.fa
+      position: absolute
+      top: 0
+      left: -40px
+      font-size: 24px
+
+    .i1
+      i.fa
+        color: #469937
+    .i2
+      i.fa
+        color: #e53135
+    .i3
+      i.fa
+        color: #1963af
+    .i4
+      i.fa
+        color: #ff6706
+    .i5
+      i.fa
+        color: #bf5933
+    .i6
+      i.fa
+        color: #b72bd9
+    .i7
+      i.fa
+        color: #ec6941
+    
+  li
+    text-align: left
+    position: relative
+    margin-bottom: 40px
+
+.catalog
+  background: url("../img/catalog-bg.png") top repeat-x
+  text-align: center
+  padding-bottom: 80px
+
+  .container > .title
+    margin: 60px 0
+
+    h2
+      margin: 0
+      line-height: 1
+      color: #43464d // text color
+      font-family: $hr
+      font-size: 40px
+
+    p
+      color: #43464d // text color
+      font-family: $pt
+      font-size: 24px
+      line-height: 1
+      margin: 0
+      margin-top: 15px
+
+  .col-xs-4
+    .title
+      width: 249px
+      height: 59px
+      display: inline-block
+      text-align: center
+      padding-left: 55px
+
+      h3
+        margin: 0
+        color: #fff // text color
+        font-family: $hr
+        font-size: 25px
+        line-height: 1
+        margin-top: 18px
+        font-weight: normal
+
+  .use
+    display: inline-block
+    width: 249px
+    height: 55px
+    text-align: left
+    margin-top: 20px
+    padding: 10px
+
+    p
+      float: left
+      color: #ffffff
+      font-size: 16px
+      font-family: $pt
+      line-height: 1.2
+      margin: 0
+
+    strong
+      float: right
+      color: #fff
+      font-family: $pt
+      font-size: 30px
+      font-weight: bold
+      position: relative
+
+      &:after
+        content: ''
+        display: inline-block
+        background: url("../img/grade.png") no-repeat
+        width: 6px
+        height: 6px
+        position: relative
+        top: -17px
+        left: 2px
+
+
+  .i1
+    .img
+      img
+        margin-top: 55px
+
+    .title
+      background: url("../img/catalog/item1/title-bg.png") no-repeat
+
+    .use
+      background: url("../img/catalog/item1/use-bg.png") no-repeat
+
+    li
+      color: #1d6bb5
+
+      i.fa
+        color: #1b9fdd
+
+    .btn
+      background-color: #1b69b3
+
+  .i2
+    .title
+      background: url("../img/catalog/item2/title-bg.png") no-repeat
+
+    .use
+      background: url("../img/catalog/item2/use-bg.png") no-repeat
+
+    li
+      color: #3b9139
+
+      i.fa
+        left: -25px
+        color: #bfd539
+
+    .btn
+      background-color: #3b9339
+
+  .i3
+    .img
+      img
+        margin-top: 55px
+
+    .title
+      background: url("../img/catalog/item3/title-bg.png") no-repeat
+      width: 270px
+
+    .use
+      background: url("../img/catalog/item3/use-bg.png") no-repeat
+      width: 270px
+
+    li
+      color: #e73d35
+
+      i.fa
+        left: -25px
+        color: #f8af21
+
+  .img
+    height: 240px
+    margin-bottom: 10px
+
+  ul
+    list-style: none
+    text-align: left
+    display: inline-block
+    padding: 0
+
+    
+    li
+      font-size: 16px
+      font-family: $pt
+      margin-bottom: 20px
+      padding-left: 10px
+      position: relative
+
+      i.fa
+        position: absolute
+        top: 0
+        left: -20px
+        font-size: 24px
+
+  .btn
+    padding: 6px 57px
+    
+.big-form-block
+  background: url("../img/free-consult-bg.jpg") top center no-repeat
+  +background-size(cover)
+  padding: 80px 0
+
+  .col-xs-5
+    width: 477px
+
+.form-block
+  +border-radius(4px) // border radius
+  background-color: rgba(255,255,255,.9) // layer fill content
+  padding: 40px
+  text-align: center
+
+  .title
+    text-align: left
+    margin-bottom: 30px
+
+    h2
+      margin: 0
+      color: #43464d // text color
+      font-family: $hr
+      font-size: 28px
+      line-height: 1.2
+      font-weight: normal
+
+    p
+      color: #43464d // text color
+      font-family: $pt
+      font-size: 18px
+
+  h3
+    color: #43464d // text color
+    font-family: $hr
+    font-size: 22px
+    font-weight: normal
+    line-height: 1.2
+    text-align: left
+    
+  input
+    width: 100%
+    height: 38px
+    border: 2px solid #c9c9c9 // stroke
+    @include border-radius(6px) // border radius
+    background-color: #fff // layer fill content
+    margin-bottom: 10px
+    color: #ababab // text color
+    font-family: $pt
+    font-size: 20px
+    text-align: center
+
+    +input-placeholder
+      color: #ababab // text color
+
+  button
+    margin-top: 10px
+
+  .tel
+    margin-top: 25px
+
+    p
+      color: #818181 // text color
+      font-family: $pt
+      font-size: 17px
+      margin: 0
+
+    a
+      font-family: $pt
+      font-weight: bold
+      font-size: 21px
+      color: #818181
+      &:hover
+        text-decoration: none
+
+      h3
+        margin: 0
+        text-align: center
+
+.our-exp
+  padding-bottom: 65px
+
+  h2
+    color: #43464d // text color
+    font-family: $hr
+    font-weight: normal
+    font-size: 40px
+
+  h3
+    color: #43464d // text color
+    font-family: $pt
+    font-size: 24px
+    font-weight: normal
+    margin: 0
+
+  .left-b
+    text-align: center
+
+    img
+      margin: 20px 0
+
+  .right-b
+    text-align: center
+
+    ul
+      color: #43464d // text color
+      padding-left: 0
+      display: inline-block
+      text-align: left
+
+      li
+        font-family: $pt
+        font-size: 17px
+
+    .btn
+      margin-top: 50px
+
+.for-wholesaler
+  background: #f5f4f4
+  text-align: center
+  padding-bottom: 60px
+
+  .title
+    font-family: $hr
+    color: #43464d // text color
+    margin-top: 60px
+    margin-bottom: 60px
+
+    h2
+      font-size: 40px
+      line-height: 1
+      margin: 0
+
+    h4
+      font-size: 24px
+      line-height: 1
+      margin-top: 10px
+
+  .col-xs-6
+    position: relative
+
+  p
+    color: #43464d // text color
+    font-family: $hb
+    font-size: 30px
+    line-height: 1
+    font-weight: normal
+    text-align: left
+    display: inline-block
+    position: relative
+    z-index: 1
+
+  .sales
+    margin-top: 40px
+
+  i.fa
+    color: #eaeaea // text color
+    font-size: 100px
+    position: absolute
+    left: 12%
+
+  .fa-life-ring
+    margin-top: 10px
+
+  .fa-tag
+    left: 16% !important
+    margin-top: 0
+
+  .btn
+    margin-top: 60px
+
+
+.order-plan
+  text-align: center
+
+  h2
+    color: #43464d // text color
+    font-family: $hr
+    font-size: 40px
+    line-height: 40px
+    font-weight: normal
+    margin-bottom: 50px
+    margin-top: 50px
+
+  .plan-items
+    display: inline-block
+    position: relative
+
+    .plan-item
+      float: left
+      margin: 0 75px
+      position: relative
+      z-index: 1
+
+      .img
+        width: 147px
+        height: 157px
+        display: inline-block
+        padding-top: 25px
+      
+      ul
+        text-align: left
+        display: inline-block
+        margin-top: 0
+
+        li
+          color: #0f1327 // text color
+          font-family: $pt
+          font-size: 14px
+
+      p
+        color: #0f1327 // text color
+        font-family: $pt
+        font-size: 18px
+        line-height: 1
+        margin-bottom: 5px
+
+      .btn
+        margin-top: 10px
+
+      i.fa
+        color: #fff // text color
+
+      &.i1
+        .img
+          background: url("../img/order-plan/i1/bg.png") no-repeat
+
+          .fa
+            font-size: 100px
+      &.i2
+        .img
+          background: url("../img/order-plan/i2/bg.png") no-repeat
+
+          .fa
+            font-size: 91px
+      &.i3
+        .img
+          background: url("../img/order-plan/i3/bg.png") no-repeat
+
+          .fa
+            font-size: 90px
+
+
+    .line1
+      background: url("../img/order-plan/line1.png") no-repeat
+      width: 216px
+      height: 53px
+      position: absolute
+      left: 208px
+      top: 88px
+
+    .line2
+      background: url("../img/order-plan/line2.png") no-repeat
+      width: 186px
+      height: 19px
+      position: absolute
+      right: 224px
+      top: 38px
+
+
+.form-goods-b
+  margin-top: 100px
+  margin-bottom: 70px
+
+  .form-block
+    width: 450px
+    border: 3px #e6e6e6 dashed
+    +border-radius(15px)
+
+    h3
+      margin-top: 0
+
+  .wm-good
+    margin-top: 75px
+
+  &.sec
+    margin-top: 0
+
+    h3
+      font-size: 21px
+      font-family: $pt
+
+    .title
+      text-align: center
+      margin: 50px 0 70px
+
+      h2
+        color: #43464d // text color
+        font-family: $hr
+        font-size: 45px
+        line-height: 1
+        margin-bottom: 0
+
+      p
+        color: #43464d // text color
+        font-family: $pt
+        font-size: 24px
+        margin-top: 10px
+
+
+
+
+.certificats
+  text-align: center
+  background: url("../img/certificats/center-bg.jpg") center top no-repeat
+  //+background-size(cover)
+
+  .title
+    h2
+      color: #43464d // text color
+      font-family: $hr
+      font-size: 45px
+      line-height: 1
+      margin-bottom: 0
+
+    p
+      color: #43464d // text color
+      font-family: $pt
+      font-size: 24px
+      margin-top: 10px
+
+  .certificats_items
+    display: inline-block
+
+    .certificats_item
+      float: left
+      padding: 20px
+      background: #fff
+      border: 5px #44464e solid
+      margin: 0 45px
+
+      &:first-child
+        margin-left: 0
+
+      &:last-child
+        margin-right: 0
+
+  .btn
+    margin-top: -300px
+
+  .ecology-sert
+    margin-left: -25px
+
+
+.rec
+  .title
+    text-align: center
+    margin-bottom: 40px
+
+    h2
+      color: #43464d // text color
+      font-family: $hr
+      font-size: 40px
+      line-height: 1
+      margin-bottom: 0
+
+    img
+      margin: 0 20px
+
+  .certificats_item
+    float: left
+    padding: 20px
+    background: #fff
+    border: 5px #44464e solid
+
+  .text
+    p
+      color: #43464d // text color
+      font-family: $pt
+      font-size: 18px
+      font-style: italic
+
+    .author
+      text-align: right
+
+    .quote
+      display: inline-block
+      background: url("../img/quote.png") no-repeat
+      width: 96px
+      height: 90px
+      margin-left: -55px
+
+  .btn
+    margin-top: 20px
+
+
+
+  hr
+    margin-top: 100px
+
+
+
+.map
+  background: url("../img/map.jpg") no-repeat
+  +background-size(cover)
+  padding: 120px 0
+  
+  .col-xs-5
+    background: #fff
+    @include border-radius(4px)
+    padding: 40px
+    width: 450px
+
+    p
+      color: #43464d // text color
+      font-family: $pt
+      font-size: 18px
+      margin: 0
+
+    a
+      &.tel
+        text-decoration: none
+        float: left
+
+        h2
+          color: #43464d // text color
+          font-family: "Arial"
+          font-size: 26px
+          font-weight: bold
+          margin: 0
+
+    .red-b
+      float: right
+      margin-top: 3px
+
+  .row
+    margin-top: 15px
+    margin-bottom: 15px
+
+
+footer
+  padding: 15px 0
+
+  p
+    color: #43464d // text color
+    font-family: $pt
+    font-size: 16px
+    margin: 0
+
+  .right
+    text-align: right
+
+    p
+      >a
+        color: #af2829
+        text-decoration: underline
+
+    span
+      color: #b9b9b9 // text color
+      font-family: $pt
+      font-size: 12px
+
+      >a
+        color: #af2829
+        line-height: 1.1
+        text-decoration: underline
