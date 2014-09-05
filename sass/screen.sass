@@ -252,9 +252,13 @@ header
     margin-bottom: 40px
 
 .catalog
-  background: url("../img/catalog-bg.png") top repeat-x
+  //background: url("../img/catalog-bg.png") top repeat-x
   text-align: center
   padding-bottom: 80px
+  background-color: #f8f8f8 // Old browsers
+  @include filter-gradient(#f8f8f8, #ffffff, vertical) // IE6-9
+  @include background-image(linear-gradient(top,  #f8f8f8 0%,#f8f8f8 25%,#fdfdfd 62%,#ffffff 100%))
+
 
   .container > .title
     margin: 60px 0
