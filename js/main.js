@@ -21,4 +21,7 @@ $(document).ready(function() {
     };
 
     yandexMapInit();
+
+    $(".fancybox").fancybox();
+
 });
