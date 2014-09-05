@@ -11,8 +11,8 @@ $(document).ready(function() {
             });
 
             myPlacemark = new ymaps.Placemark([55.7163911,37.4314895], {
-                hintContent: 'Москва, ул. Петра Алексеева,  д.12., стр. 2, оф. 104',
-                balloonContent: 'Москва, ул. Петра Алексеева,  д.12., стр. 2, оф. 104'
+                hintContent: 'Москва, ул. Западная, д. 6, стр. 19',
+                balloonContent: 'Москва, ул. Западная, д. 6, стр. 19'
             });
 
             myMap.geoObjects.add(myPlacemark);
