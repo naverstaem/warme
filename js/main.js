@@ -20,17 +20,38 @@ $(document).ready(function() {
         }
     };
 
-    yandexMapInit();
+
 
     $(".fancybox").fancybox();
 
-    $(".menu a").click(function() {
+    $(".menu a, .logo").click(function() {
         $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top + "px"
+            scrollTop: $($(this).attr("href")).offset().top - 100 + "px"
         }, {
             duration: 500
         });
         return false;
     });
+
+    navigationScroll = function(){
+        var offset = 705;
+        var scroll = $(document).scrollTop();
+        if (scroll < 80) {
+            $('header .top')
+                .toggleClass('show');
+        }
+        else if (scroll >= offset - 100) {
+            $('header .top')
+                .toggleClass('show');
+        }
+        else if (scroll < offset - 62) {
+            $('header .top')
+                .toggleClass('show');
+        }
+    };
+
+    navigationScroll();
+    yandexMapInit();
+
 
 });
