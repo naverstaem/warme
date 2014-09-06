@@ -56,7 +56,7 @@
 		"outputAbbreviatedPath": "\/img\/boiler.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/bosch.png": {
 		"fileType": 32768,
@@ -67,7 +67,7 @@
 		"outputAbbreviatedPath": "\/img\/bosch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/catalog-bg.png": {
 		"fileType": 32768,
@@ -78,7 +78,7 @@
 		"outputAbbreviatedPath": "\/img\/catalog-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/catalog\/item1\/pic.png": {
 		"fileType": 32768,
@@ -243,7 +243,7 @@
 		"outputAbbreviatedPath": "\/img\/corrosion.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/ecology-text.png": {
 		"fileType": 32768,
@@ -254,7 +254,18 @@
 		"outputAbbreviatedPath": "\/img\/ecology-text.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3329,
+		"inputAbbreviatedPath": "\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/free-consult-bg.jpg": {
 		"fileType": 16384,
@@ -267,6 +278,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/free-consult-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.42358e+06,
+		"inputAbbreviatedPath": "\/img\/free-consult-bg.png",
+		"outputAbbreviatedPath": "\/img\/free-consult-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/grade.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -276,7 +298,7 @@
 		"outputAbbreviatedPath": "\/img\/grade.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/gray-header-bg.png": {
 		"fileType": 32768,
@@ -287,7 +309,7 @@
 		"outputAbbreviatedPath": "\/img\/gray-header-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/hr-bg.png": {
 		"fileType": 32768,
@@ -331,7 +353,7 @@
 		"outputAbbreviatedPath": "\/img\/map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/order-plan\/i1\/bg.png": {
 		"fileType": 32768,
@@ -463,7 +485,7 @@
 		"outputAbbreviatedPath": "\/img\/red-btn-gradient.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/scale.png": {
 		"fileType": 32768,

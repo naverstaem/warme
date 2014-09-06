@@ -8,6 +8,8 @@
     
     <!-- Custom styles -->
     <link href="css/screen.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -257,7 +259,7 @@
                     </div>
 
                     <form class="form-subscribe" action="subscribe.php" method="post">
-                        <input name="" type="hidden"/>
+                        <input type="hidden" name="form_comment" value="">
                         <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
                         <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
                         <button class="btn">Заказать консультацию</button>
@@ -375,7 +377,7 @@
                         от производителя прямо сейчас</h3>
 
                     <form class="form-subscribe" action="subscribe.php" method="post">
-                        <input name="" type="hidden"/>
+                        <input type="hidden" name="form_comment" value="">
                         <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
                         <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
                         <button class="btn">Заказать консультацию</button>
@@ -478,7 +480,7 @@
                         отопительной системы, оставьте заявку</h3>
 
                     <form class="form-subscribe" action="subscribe.php" method="post">
-                        <input name="" type="hidden"/>
+                        <input type="hidden" name="form_comment" value="">
                         <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
                         <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
                         <button class="btn">Заказать консультацию</button>
@@ -545,7 +547,7 @@
                 <div class="form-block">
 
                     <form class="form-subscribe" action="subscribe.php" method="post">
-                        <input name="" type="hidden"/>
+                        <input type="hidden" name="form_comment" value="">
                         <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
                         <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
                         <button class="btn">Отправить заявку</button>
@@ -571,42 +573,46 @@
             </div>
             <div class="modal-body">
 
-                <div class="item-block clearfix">
-                    <div class="l-block col-xs-4">
-                        <h2>Wärme Hydro</h2>
-                        <p>Котловая вода</p>
-                        <img src="img/catalog/item1/pic.png" alt=""/>
-                    </div>
+                <div class="item-block">
 
-                    <div class="r-block col-xs-8">
-                        <p>Обеспечивает работу котельного оборудования без образования
-                            накипи и коррозии, сохраняя эффективность производительности котла в процессе эксплуатации.</p>
-
-                        <ul>
-                            <li>При температурах не ниже 0</li>
-                            <li><strong>Для любого типа котельного оборудования</strong></li>
-                            <li>Комплекс присадок “АВТ-Тепло” растворяет накипь</li>
-                            <li>Образует защитную пленку для предотвращения коррозии на стенках теплообменника и системе отопления.</li>
-                            <li>Связывает активный кислород</li>
-                        </ul>
-
-                        <p>Цена: 40 руб / литр.</p>
-
-
-                        <div class="form-block">
-                            <form class="form-subscribe" action="subscribe.php" method="post">
-                                <input name="" type="hidden"/>
-                                <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
-                                <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
-                                <button class="btn">Заказать</button>
-                            </form>
-
-                            <div class="tel">
-                                <p>или позвоните по телефону</p>
-                                <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
-                            </div>
+                    <div class="clearfix">
+                        <div class="l-block col-xs-3">
+                            <h2>Wärme Hydro</h2>
+                            <p>Котловая вода</p>
+                            <img src="img/catalog/item1/pic.png" alt=""/>
                         </div>
 
+                        <div class="r-block col-xs-9">
+                            <p>Обеспечивает работу котельного оборудования без образования
+                                накипи и коррозии, сохраняя эффективность производительности котла в процессе эксплуатации.</p>
+
+                            <ul>
+                                <li>При температурах не ниже 0</li>
+                                <li><strong>Для любого типа котельного оборудования</strong></li>
+                                <li>Комплекс присадок “АВТ-Тепло” растворяет накипь</li>
+                                <li>Образует защитную пленку для предотвращения коррозии на стенках теплообменника и системе отопления.</li>
+                                <li>Связывает активный кислород</li>
+                            </ul>
+
+                            <p>Цена: <strong>40 руб / литр.</strong></p>
+
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <form class="form-subscribe" action="subscribe.php" method="post">
+                            <input type="hidden" name="form_comment" value="">
+
+                            <input type="text" name="profile_num" placeholder="Кол-во" class="num"/>
+                            <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                            <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон"/>
+                            <button class="btn">Заказать</button>
+                        </form>
+
+                        <div class="tel hidden">
+                            <p>или позвоните по телефону</p>
+                            <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                        </div>
                     </div>
                 </div>
 
