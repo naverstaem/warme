@@ -36,8 +36,8 @@
       <file leaf-file-name="screen.sass" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/screen.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58388156" vertical-offset="6620" max-vertical-offset="14415">
-              <caret line="465" column="17" selection-start-line="465" selection-start-column="17" selection-end-line="465" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.55921054" vertical-offset="6605" max-vertical-offset="14415">
+              <caret line="463" column="12" selection-start-line="463" selection-start-column="12" selection-end-line="463" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -508,8 +508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58388156" vertical-offset="6620" max-vertical-offset="14415">
-          <caret line="465" column="17" selection-start-line="465" selection-start-column="17" selection-end-line="465" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.55921054" vertical-offset="6605" max-vertical-offset="14415">
+          <caret line="463" column="12" selection-start-line="463" selection-start-column="12" selection-end-line="463" selection-end-column="12" />
           <folding />
         </state>
       </provider>
