@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <a class="btn" href="">Подобрать теплоноситель</a>
+        <a class="btn" href="" data-toggle="modal" data-target="#search">Подобрать теплоноситель</a>
     </div>
 </section>
 
@@ -159,7 +159,7 @@
             </div>
         </div>
 
-        <a class="btn" href="">Закажите бесплатную консультацию</a>
+        <a class="btn" href="" data-toggle="modal" data-target="#consult">Закажите бесплатную консультацию</a>
     </div>
 </section>
 
@@ -216,7 +216,7 @@
                         оборудования </li>
                 </ul>
 
-                <a class="btn" href="">Подробнее</a>
+                <a class="btn" data-toggle="modal" data-target="#order2">Подробнее</a>
             </div>
             <div class="col-xs-4 i3">
                 <div class="img">
@@ -238,7 +238,7 @@
                     <li><i class="fa fa-sun-o"></i>На основе этиленгликоля</li>
                 </ul>
 
-                <a class="btn" href="">Подробнее</a>
+                <a class="btn" data-toggle="modal" data-target="#order3">Подробнее</a>
             </div>
         </div>
     </div>
@@ -297,7 +297,7 @@
                     <li>по цене производителя</li>
                 </ul>
 
-                <a class="btn" href="">Закажите теплоноситель от производителя</a>
+                <a class="btn" href="" data-toggle="modal" data-target="#search">Закажите теплоноситель от производителя</a>
             </div>
         </div>
     </div>
@@ -322,7 +322,7 @@
             </div>
         </div>
 
-        <a class="btn" href="">Узнать об условиях подробнее</a>
+        <a class="btn" href="" data-toggle="modal" data-target="#condition">Узнать об условиях подробнее</a>
     </div>
 </section>
 
@@ -340,7 +340,7 @@
                 <p>Заявка на сайте <br/>
                     или звонок</p>
 
-                <a class="btn" href="">Оставить заявку</a>
+                <a class="btn" data-toggle="modal" data-target="#feedback">Оставить заявку</a>
             </div>
             <div class="plan-item i2">
                 <div class="img">
@@ -428,7 +428,7 @@
 
         <img src="img/certificats/ecology-title.png" alt="" class="ecology-sert"/>
 
-        <a class="btn" href="">Заказать консультацию</a>
+        <a class="btn" href="" data-toggle="modal" data-target="#consult">Заказать консультацию</a>
     </div>
 </section>
 
@@ -460,7 +460,7 @@
                     <p class="author">Сервисный центр Bosch Buderus</p>
                 </div>
 
-                <a class="btn" href="">Заказать теплоноситель Wärme</a>
+                <a class="btn" href="" data-toggle="modal" data-target="#search">Заказать теплоноситель Wärme</a>
             </div>
         </div>
 
@@ -510,7 +510,7 @@
 
                 <div class="row">
                     <div class="col-xs-12 clearfix">
-                        <a class="tel" href="tel:8 (495) 765-73-03"><h2>8 (495) 765-73-03</h2></a> <a class="btn red-b" href="">Заказать звонок</a>
+                        <a class="tel" href="tel:8 (495) 765-73-03"><h2>8 (495) 765-73-03</h2></a> <a class="btn red-b" href="" data-toggle="modal" data-target="#feedback">Заказать звонок</a>
                     </div>
                 </div>
 
@@ -566,6 +566,89 @@
 </div><!-- /.modal -->
 
 
+<div class="modal small" id="condition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Узнать об условиях</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-block">
+
+                    <form class="form-subscribe" action="subscribe.php" method="post">
+                        <input type="hidden" name="form_comment" value="">
+                        <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                        <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон" required=""/>
+                        <button class="btn">Отправить заявку</button>
+                    </form>
+
+                    <div class="tel">
+                        <p>или позвоните по телефону</p>
+                        <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal small" id="search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Подобрать теплоноситель</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-block">
+
+                    <form class="form-subscribe" action="subscribe.php" method="post">
+                        <input type="hidden" name="form_comment" value="">
+                        <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                        <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон" required=""/>
+                        <button class="btn">Отправить заявку</button>
+                    </form>
+
+                    <div class="tel">
+                        <p>или позвоните по телефону</p>
+                        <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal small" id="consult" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Бесплатная консультация</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-block">
+
+                    <form class="form-subscribe" action="subscribe.php" method="post">
+                        <input type="hidden" name="form_comment" value="">
+                        <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                        <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон" required=""/>
+                        <button class="btn">Отправить заявку</button>
+                    </form>
+
+                    <div class="tel">
+                        <p>или позвоните по телефону</p>
+                        <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
 <div class="modal big" id="order1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -583,6 +666,122 @@
                     <div class="clearfix">
                         <div class="l-block col-xs-3">
                             <img src="img/catalog/item1/pic.png" alt=""/>
+                        </div>
+
+                        <div class="r-block col-xs-9">
+                            <p>Обеспечивает работу котельного оборудования без образования
+                                накипи и коррозии, сохраняя эффективность производительности котла в процессе эксплуатации.</p>
+
+                            <ul>
+                                <li>При температурах не ниже 0</li>
+                                <li><strong>Для любого типа котельного оборудования</strong></li>
+                                <li>Комплекс присадок “АВТ-Тепло” растворяет накипь</li>
+                                <li>Образует защитную пленку для предотвращения коррозии на стенках теплообменника и системе отопления.</li>
+                                <li>Связывает активный кислород</li>
+                            </ul>
+
+                            <p>Цена: <strong>40 руб / литр.</strong></p>
+
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <form class="form-subscribe" action="subscribe.php" method="post">
+                            <input type="hidden" name="form_comment" value="">
+
+                            <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                            <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон" required=""/>
+                            <button class="btn">Заказать</button>
+                        </form>
+
+                        <div class="tel hidden">
+                            <p>или позвоните по телефону</p>
+                            <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal big" id="order2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <div class="title">
+                    <h2>Wärme Eco 30</h2>
+                    <p>Котловая вода</p>
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <div class="item-block">
+
+                    <div class="clearfix">
+                        <div class="l-block col-xs-3">
+                            <img src="img/catalog/item2/pic.png" alt=""/>
+                        </div>
+
+                        <div class="r-block col-xs-9">
+                            <p>Обеспечивает работу котельного оборудования без образования
+                                накипи и коррозии, сохраняя эффективность производительности котла в процессе эксплуатации.</p>
+
+                            <ul>
+                                <li>При температурах не ниже 0</li>
+                                <li><strong>Для любого типа котельного оборудования</strong></li>
+                                <li>Комплекс присадок “АВТ-Тепло” растворяет накипь</li>
+                                <li>Образует защитную пленку для предотвращения коррозии на стенках теплообменника и системе отопления.</li>
+                                <li>Связывает активный кислород</li>
+                            </ul>
+
+                            <p>Цена: <strong>40 руб / литр.</strong></p>
+
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <form class="form-subscribe" action="subscribe.php" method="post">
+                            <input type="hidden" name="form_comment" value="">
+
+                            <input type="text" name="profile_name" placeholder="Введите Ваше имя"/>
+                            <input type="tel" name="profile_phone" placeholder="Введите Ваш телефон" required=""/>
+                            <button class="btn">Заказать</button>
+                        </form>
+
+                        <div class="tel hidden">
+                            <p>или позвоните по телефону</p>
+                            <a href="tel:8 (495) 765-73-03"><h3>8 (495) 765-73-03</h3></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal big" id="order3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <div class="title">
+                    <h2>Wärme Basic 65</h2>
+                    <p>Котловая вода</p>
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <div class="item-block">
+
+                    <div class="clearfix">
+                        <div class="l-block col-xs-3">
+                            <img src="img/catalog/item3/pic.png" alt=""/>
                         </div>
 
                         <div class="r-block col-xs-9">
