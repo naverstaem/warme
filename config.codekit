@@ -179,6 +179,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/certificats\/big\/i1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 490342,
+		"inputAbbreviatedPath": "\/img\/certificats\/big\/i1.jpg",
+		"outputAbbreviatedPath": "\/img\/certificats\/big\/i1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certificats\/big\/i2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97881,
+		"inputAbbreviatedPath": "\/img\/certificats\/big\/i2.jpg",
+		"outputAbbreviatedPath": "\/img\/certificats\/big\/i2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certificats\/big\/i3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 433572,
+		"inputAbbreviatedPath": "\/img\/certificats\/big\/i3.jpg",
+		"outputAbbreviatedPath": "\/img\/certificats\/big\/i3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/certificats\/center-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
